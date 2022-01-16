@@ -1,0 +1,42 @@
+$TTL	604800
+@	IN	SOA	ns.isp111.lab.	root.isp111.lab.	(
+					1	;	Serial
+					604800	;	Refresh
+					86400	;	Retry
+					2149200	;	Expire
+					604800	)	;Negative Cache TTL
+;
+
+
+@							IN 	NS		ns.isp111.lab.
+11.1.in-addr.arpa.			IN	NS		ns.isp11.lab.
+12.1.in-addr.arpa.			IN	NS		ns.isp12.lab.
+10.0.0.1.in-addr.arpa.		IN	PTR		r1e0.isp111.lab.
+1.0.111.1.in-addr.arpa.		IN	PTR		r1e1.isp111.lab.
+5.0.111.1.in-addr.arpa.		IN	PTR		r1e2.isp111.lab.
+9.0.111.1.in-addr.arpa.		IN	PTR		r1e3.isp111.lab.
+2.0.21.2.in-addr.arpa.		IN	PTR		r2e0.isp111.lab.
+2.0.111.1.in-addr.arpa.		IN	PTR		r2e1.isp111.lab.
+13.0.111.1.in-addr.arpa.	IN	PTR		r2e2.isp111.lab.
+1.1.111.1.in-addr.arpa.		IN	PTR		r3e0.isp111.lab.
+17.0.111.1.in-addr.arpa.	IN	PTR		r3e1.isp111.lab.
+14.0.111.1.in-addr.arpa.	IN	PTR		r3e2.isp111.lab.
+10.0.111.1.in-addr.arpa.	IN	PTR		r3e3.isp111.lab.
+1.2.111.1.in-addr.arpa.		IN	PTR		r4e0.isp111.lab.
+18.0.111.1.in-addr.arpa.	IN	PTR		r4e1.isp111.lab.
+6.0.111.1.in-addr.arpa.		IN	PTR		r4e2.isp111.lab.
+10.2.111.1.in-addr.arpa.	IN	PTR		c10.isp111.lab.
+11.2.111.1.in-addr.arpa.	IN	PTR		c11.isp111.lab.
+12.2.111.1.in-addr.arpa.	IN	PTR		c12.isp111.lab.
+13.2.111.1.in-addr.arpa.	IN	PTR		c13.isp111.lab.
+14.2.111.1.in-addr.arpa.	IN	PTR		c14.isp111.lab.
+15.2.111.1.in-addr.arpa.	IN	PTR		c15.isp111.lab.
+16.2.111.1.in-addr.arpa.	IN	PTR		c16.isp111.lab.
+17.2.111.1.in-addr.arpa.	IN	PTR		c17.isp111.lab.
+18.2.111.1.in-addr.arpa.	IN	PTR		c18.isp111.lab.
+19.2.111.1.in-addr.arpa.	IN	PTR		c19.isp111.lab.
+20.2.111.1.in-addr.arpa.	IN	PTR		c20.isp111.lab.
+2.1.111.1.in-addr.arpa.		IN	PTR		ns.isp111.lab.
+3.1.111.1.in-addr.arpa.  	IN	PTR		www.isp111.lab.
+4.1.111.1.in-addr.arpa.		IN	PTR		dhcpd.isp111.lab.
+111.1.in-addr.arpa.			IN	NS		ns.isp111.lab.

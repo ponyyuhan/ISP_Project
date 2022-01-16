@@ -1,0 +1,42 @@
+$TTL	60000
+@		IN		SOA		ns.isp111.lab.	root.isp111.lab.	(
+						2006031201	;	serial
+						28800	;	refresh
+						14400	;	retry
+						3600000	;	expire
+						0	;	negative cache ttl
+						)
+@		IN     NS		ns.isp111.lab.
+r1e0	IN		A		1.0.0.10
+r1e1	IN		A		1.111.0.1
+r1e2	IN		A		1.111.0.5
+r1e3	IN		A		1.111.0.9
+r1d0	IN		A		1.111.0.21
+r2e0	IN		A		2.21.0.2
+r2e1	IN		A		1.111.0.2
+r2e2	IN		A		1.111.0.13
+r1d0	IN		A		1.111.0.25
+r3e0	IN		A		1.111.1.1
+r3e1	IN		A		1.111.0.17
+r3e2	IN		A		1.111.0.14
+r3e3	IN		A		1.111.0.10
+r3d0	IN		A		1.111.0.29
+r4e0	IN		A		1.111.2.1
+r4e1	IN		A		1.111.0.18
+r4e2	IN		A		1.111.0.6
+r4d0	IN		A		1.111.0.33
+c10		IN		A		1.111.2.10
+c11		IN		A		1.111.2.11
+c12		IN		A		1.111.2.12
+c13		IN		A		1.111.2.13
+c14		IN		A		1.111.2.14
+c15		IN		A		1.111.2.15
+c16		IN		A		1.111.2.16
+c17		IN		A		1.111.2.17
+c18		IN		A		1.111.2.18
+c19		IN		A		1.111.2.19
+c20		IN		A		1.111.2.20
+ns		IN		A		1.111.1.2
+www		IN		A		1.111.1.3
+dhcpd	IN		A		1.111.1.4
+dnsroot	IN		A		1.0.1.2
